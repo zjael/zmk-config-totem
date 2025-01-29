@@ -33,7 +33,8 @@
 #define BASE 0
 #define NAV 1
 #define NUM 2
-#define DAN 3
+#define SYM 3
+#define DAN 4
 
 /*                                      38 KEY MATRIX / LAYOUT MAPPING
 
@@ -80,7 +81,7 @@ ZMK_LAYER(base_layer,
 //               ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                    &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F   &kp G             &kp H         &hmr RGUI J   &hmr RALT K   &hmr RCTRL L  &hmr RSHIFT O
 // ╭─────────────├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤─────────────╮
-     &kp ESCAPE    &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp SEMI      &kp DOT       &kp TILDE
+     &kp ESC       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp SEMI      &kp DOT       &kp TILDE
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                &lt LGUI DEL  &lt NAV TAB   &kp SPACE         &kp RET       &lt SYM SPACE  &kp BSPC
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
