@@ -70,9 +70,9 @@ ZMK_HOLD_TAP(hmr,
     bindings = <&kp>, <&kp>;
 )
 
-ZMK_COMBO(letter_ae, &da_ae,      RM3 RM4, DEF)
-ZMK_COMBO(letter_aa, &da_aa,      LM3 LM4, DEF)
-ZMK_COMBO(letter_oe, &da_oe,      RT3 RT4, DEF)
+// ZMK_COMBO(letter_ae, &da_ae,      RM3 RM4, DEF)
+// ZMK_COMBO(letter_aa, &da_aa,      LM3 LM4, DEF)
+// ZMK_COMBO(letter_oe, &da_oe,      RT3 RT4, DEF)
 
 ZMK_LAYER(base_layer,
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
